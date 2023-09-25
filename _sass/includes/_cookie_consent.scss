@@ -1,0 +1,46 @@
+// 
+// scss for cookie-consent -related things
+// 
+
+#cookie-consent {
+  display: none;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  z-index: $z-modal;
+  width: 80%;
+  padding: $sp-4;
+  margin: $sp-3;
+  text-align: center;
+  color: var(--body-text-color);
+  background: var(--accent-dark-color);
+  border-radius: $sp-3;
+  box-shadow: 0 1px 2px rgba(var(--box-shadow-color), 0.12), 0 3px 10px rgba(var(--box-shadow-color), 0.08);
+  
+  @include mq(md) {
+    max-width: 60%;
+    margin-left: $nav-width-md;
+  }
+
+  @include mq(lg) {
+    max-width: $content-width;
+    margin-left: $nav-width-lg;
+  }
+
+  & a {
+    display: inline-block; 
+    cursor: pointer; 
+  }
+
+  #cookie-consent-response-accept {
+    @include fs-6;
+  }
+
+  #cookie-consent-hmm {
+    @include fs-8;
+  }
+
+  #cookie-consent-response-reject {
+    @include fs-2;
+  }
+}

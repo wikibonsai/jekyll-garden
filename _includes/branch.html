@@ -1,0 +1,18 @@
+<!-- from: https://jekyllrb.com/tutorials/navigation/#scenario-9-nested-tree-navigation-with-recursion -->
+<ul>
+  {% for child in include.children %}
+    {% assign doc = site.documents | where: "url", child.url | first %}
+    <li>
+      <span>{% include img/bullet-branch.svg %}</span>
+      {% if doc %}
+        <a class="wiki-link" href="{{ doc.url }}">{{ doc.title }}</a>
+      {% else %}
+        <span class="text--small text--no-point">{{ child.text }}</span>
+      {% endif %}
+      {% if child.children.size > 0 %}
+        {% assign child_nodes = page.nodes | where_exp: "node", "child.children contains node.text" %}
+        {% include branch.html children=child_nodes %}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

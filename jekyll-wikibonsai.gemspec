@@ -4,21 +4,21 @@ require_relative "lib/jekyll-wikibonsai/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-wikibonsai"
-  spec.version       = Jekyll::WikiBonsai::VERSION
+  spec.version       = '0.0.8'
   spec.authors       = ["manunamz"]
   spec.email         = ["manunamz@pm.me"]
 
-  spec.summary       = "You thought there was something in here, didn't you? 😉"
+  spec.summary       = "A jekyll theme for semantically inclined digital gardeners."
   # spec.description   = "TODO: Write a longer description or delete this line."
-  spec.homepage      = "https://github.com/manunamz/jekyll-wikibonsai"
+  spec.homepage      = "https://github.com/wikibonsai/jekyll-wikibonsai"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
   spec.licenses      = ["MIT"]
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/manunamz/jekyll-wikibonsai"
-  spec.metadata["changelog_uri"] = "https://github.com/manunamz/jekyll-wikibonsai/blob/main/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = "https://github.com/wikibonsai/jekyll-wikibonsai"
+  spec.metadata["changelog_uri"] = "https://github.com/wikibonsai/jekyll-wikibonsai/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

@@ -1,0 +1,96 @@
+//
+// Base element style overrides
+//
+// stylelint-disable selector-no-type, selector-max-type
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: var(--selection-color);
+}
+
+html {
+  @include fs-4;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $body-font-family;
+  font-size: inherit;
+  line-height: $body-line-height;
+  color: var(--body-text-color);
+  background-color: var(--body-background-color);
+}
+
+ol,
+ul,
+dl,
+pre,
+address,
+blockquote,
+table,
+div,
+hr,
+form,
+fieldset,
+noscript .table-wrapper {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  // margin-top: 0;
+  // margin-bottom: 1em;
+  font-weight: 500;
+  line-height: $body-heading-line-height;
+  color: var(--small-heading-color);
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+code {
+  font-family: $mono-font-family;
+  font-size: 0.75em;
+  line-height: $body-line-height;
+}
+
+figure,
+pre {
+  margin: 0;
+}
+
+ul {
+  margin-bottom: 0;
+  padding: $sp-2;
+  
+  li {
+    padding: $sp-1;
+    list-style-type: none !important;
+  
+    &::before {
+      content: "" !important;
+    }
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+  height: 1px;
+  padding: 0;
+  margin: $sp-6 0;
+  background-color: var(--accent-light-color);
+  border: 0;
+}

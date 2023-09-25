@@ -1,0 +1,17 @@
+---
+layout: base
+---
+<div id="map" class="map">
+
+  <div class="hp-title">
+    <h1 class="p-name">{{ site.data.emoji.bonsai }} {{ page.title }}</h1>
+  </div>
+
+  <div class="hp-content e-content p-name">
+    {{ content }}
+
+    {% assign child_nodes = page.nodes | where_exp: "node", "node.ancestors.size == 0"%}
+    {% include branch.html children=child_nodes  %}
+  </div>
+
+</div>

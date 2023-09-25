@@ -1,35 +1,57 @@
-# Jekyll::WikiBonsai
+# Jekyll-WikiBonsai
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/jekyll/id`. To experiment with that code, run `bin/console` for an interactive prompt.
+[![A WikiBonsai Project](https://img.shields.io/badge/%F0%9F%8E%8B-A%20WikiBonsai%20Project-brightgreen)](https://github.com/wikibonsai/wikibonsai)
+[![Ruby Gem](https://img.shields.io/gem/v/jekyll-wikibonsai)](https://rubygems.org/gems/jekyll-wikibonsai)
 
-TODO: Delete this and the text above, and describe your gem
+<img src="https://github.com/wikibonsai/jekyll-wikibonsai/blob/main/assets/img/bonsai-light.svg" width="300" height="300"/>
 
-## Installation
+💐 Display your [🎋 WikiBonsai](https://github.com/wikibonsai/wikibonsai) digital garden for others.
 
-Add this line to your application's Gemfile:
+- Does not currently support CAML primitives (just wikiattrs).
 
-```ruby
-gem 'jekyll-id'
-```
+## Features
 
-And then execute:
+- [[[Wikirefs]]](https://jekyll-wikibonsai.netlify.app/entry/d1634ef36a/) support.
+- [A semantic tree](https://jekyll-wikibonsai.netlify.app/entry/fa6aa0c597/) support.
+- [Graphs](https://jekyll-wikibonsai.netlify.app/entry/5f44796eaf/)
 
-    $ bundle install
+## Setup
 
-Or install it yourself as:
+There are multiple ways to utilize this template...
 
-    $ gem install jekyll-id
+[⚙️ Setup](https://jekyll-wikibonsai.netlify.app/post/0b9db15818/)
 
-## Usage
+### Use
 
-TODO: Write usage instructions here
+For those interested in getting straight to writing:
 
-## Development
+[📝 Write](https://jekyll-wikibonsai.netlify.app/post/827a3e6d12/)
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+### Template
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+For those that want to write and tinker with the template itself:
 
-## Contributing
+[🔍 Tinker](https://jekyll-wikibonsai.netlify.app/post/e7e22a4da8/)
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/jekyll-id.
+### Code
+
+For those that just want to know how the template works and want to borrow ideas for their own:
+
+[🛠 Code](https://jekyll-wikibonsai.netlify.app/post/2902cedfa6/)
+
+## Plugins
+
+This template depends on the following jekyll plugins:
+
+- WikiBonsai:
+  - [jekyll-wikirefs](https://github.com/wikibonsai/jekyll-wikirefs)
+  - [jekyll-semtree](https://github.com/wikibonsai/jekyll-semtree)
+  - [jekyll-graph](https://github.com/wikibonsai/jekyll-graph)
+- Jekyll:
+  - [jekyll-feed](https://github.com/jekyll/jekyll-feed)
+  - [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
+  - [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap)
+- ashmaroli:
+  - [jekyll-data](https://github.com/ashmaroli/jekyll-data)
+- manunamz:
+  - [jekyll-id](https://github.com/manunamz/jekyll-id)

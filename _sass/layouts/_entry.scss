@@ -1,0 +1,156 @@
+// entry page styles
+  
+.entry {
+
+  @include mq(md) {
+  }
+
+  @include mq(lg) {
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "title title title"
+    "body body infobox"
+    ". . infobox"
+    "footer footer footer";
+  }
+
+  &__header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+
+    &--fix-hrz-scroll {
+      // fixes horizontal scroll
+      // from: https://stackoverflow.com/questions/45280943/horizontal-scroll-breaks-when-using-css-flexbox
+      overflow:hidden;
+    }
+  }
+
+  &__title {
+    grid-area: title;
+  }
+
+  &__infobox {
+    grid-area: infobox;
+    padding: $sp-3;
+    margin-bottom: $sp-3;
+
+    @include mq(md) {
+      @include infobox-container;
+    }
+    @include mq(lg) {
+      // grid
+    }
+  }
+
+  &__body {
+    grid-area: body;
+  }
+
+  &__footer {
+    grid-area: footer;
+  }
+
+  &__section-wrapper { // specifically for the footer sections...
+    margin-top: $sp-6;
+    margin-bottom: $sp-6;
+    display: flex;
+  }
+}
+
+// header
+
+.breadcrumb {
+  align-self: center;
+  // horizontal scroll on overflow
+  overflow-x: scroll;
+  white-space: nowrap;
+
+  ol {
+    display: flex;
+    // remove 'ol' defaults
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    list-style: none;
+  
+    li {
+      @include fs-2;
+      display: flex;
+      padding-left: $sp-1;
+      padding-right: $sp-1;
+
+      &::before {
+        display: none;
+      }
+
+      .stat-tag {
+        padding-right: $sp-1;
+      }
+    }
+  } 
+}
+
+// aside
+
+.link-map {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  &__type {
+    text-align: center;
+  }
+
+  &__wrapper {
+    display: grid;
+  }
+
+  &__key {
+    grid-column-start: 1;
+    align-self: center;
+    text-align: right;
+  }
+
+  &__value {
+    grid-column-start: 2;
+    align-self: center;
+    text-align: left;
+  }
+}
+
+// footer
+
+.link-box {
+  width: 100%;
+
+  &__partition {
+    width: 100%;
+    padding-left: $sp-2;
+    padding-right: $sp-2;
+  }
+
+  &__type {
+    @include fs-6;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+
+  ul {
+    display: block; // columns require block
+    column-count: 2;
+    column-width: $content-width / 6;
+    padding-left: 0;
+    
+    li {
+      padding: $sp-1;
+      max-width: $content-width / 4;
+      // hide overflowing text
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}

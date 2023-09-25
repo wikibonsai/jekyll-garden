@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="15" width="15" viewBox="0 0 50 50" overflow="visible" stroke-width="5" stroke-linecap="round">
+  <line class="bullet-link" x1="5" y1="33" x2="5" y2="5" stroke="#8C6239"/>
+  <line class="bullet-link" x1="5" y1="33" x2="33" y2="33" stroke="#8C6239"/>
+  <circle class="bullet-node" cx="5" cy="5" r="6" fill="#31AF31"/>
+  <circle class="bullet-node" cx="5" cy="33" r="6" fill="#31AF31"/>
+  <circle class="bullet-node" cx="33" cy="33" r="6" fill="#31AF31"/>
+</svg>

@@ -1,5 +1,5 @@
-## [Unreleased]
+## [0.0.8] - 2023-09-25
 
-## [0.1.0] - 2021-08-24
+- `jekyll-bonsai` -> `jekyll-wikibonsai`.
+- `jekyll-namespaces` -> `jekyll-semtree`.
 
-- Initial release

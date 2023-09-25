@@ -1,0 +1,13 @@
+---
+id: eb03c04c7b
+title: 🌈 Rainbow
+desc: ''
+updated: 1637705621672
+created: 1637618010598
+status: "\U0001F33F"
+---
+
+literal::[[theme]]
+
+
+Sometimes, a garden just needs a splash of color.

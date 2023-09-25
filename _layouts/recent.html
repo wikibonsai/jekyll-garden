@@ -1,0 +1,66 @@
+---
+layout: base
+---
+<div id="recent" class="recent">
+
+  <section class="recent__leader">
+    <div class="hp-title">
+      <h1 class="p-name">{{ site.data.emoji.recent }} {{ page.title }}</h1>
+    </div>
+    <div class="leader">
+      <div class="leader__content markdown hp-content e-content p-name">
+        {{ content }}
+      </div>
+      <aside class="key">
+        <span class="key__title">Key</span>
+        <div class="key__content">
+          <p class="text--small"><em>{{ site.data.emoji.created }} Planted (Created) (Inactive)</em></p>
+          <p>{{ site.data.emoji.published }} Transplanted (Published)</p>
+          <p>{{ site.data.emoji.updated }} Last Tended (Updated)</p>
+          <p class="text--small"><em>{{ site.data.emoji.deleted }} Uprooted (Deleted) (Inactive)</em></p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="recent__content">
+    <ul>
+      {% assign recent_docs = site.documents | sort: 'updated' | reverse %}
+      {% for doc in recent_docs limit: site.bonsai.recent.cap %}
+        <!-- determine if doc's recent status -->
+        <!-- from: https://stackoverflow.com/questions/37340705/shopify-liquid-find-number-of-days-between-two-dates -->
+        <!-- note: slicing off milliseconds -->
+        <!-- {% assign ctime = doc.created | date: '%s' | slice: 0, 10 %} -->
+        {% assign ptime = doc.date | date: '%s' | slice: 0, 10 %}
+        {% assign mtime = doc.updated | date: '%s' | slice: 0, 10 %}
+        {% assign sec_diff = mtime | minus: ptime %}
+        {% assign is_same_day = sec_diff | divided_by: 3600 | divided_by: 24 %}
+        <li>
+          <div class="item">
+            <div class="bullet-scene">
+              <span class="bullet-scene__change-type">
+                {% if is_same_day == 0 %}
+                  {{ site.data.emoji.published }}
+                {% else %}
+                  {{ site.data.emoji.updated }}
+                {% endif %}
+              </span>
+              <span class="bullet-scene__status">
+                {% include btn_state.html states=doc.status %}
+              </span>
+            </div>
+            <div class="item__text">
+              <span class="item__text--big">
+                <a class="wiki-link" href="{{ doc.url | relative_url }}">{{ doc.title }}</a>  
+              </span>
+              <time class="text--date dt-updated">
+                {{ doc.updated | slice: 0, 10 | date: site.bonsai.date_format }}
+              </time>
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+</div>
