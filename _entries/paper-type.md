@@ -18,25 +18,11 @@ required ::
 - [[tags]]
 
 
-Book documents are a type of post that discusses a book. They display the book's cover and connect to [[entry-type|entries]] via [[tags]].
+#todo
+
+Paper documents are a collection type that discusses an academic paper. They will have links to paper sources, notes, and connect to [[entry-type|entries]] via [[tags]].
 
 ### Navigate
 
 - Via other [[document#navigate]] methods.
 - Via [[entry-links]].
-
-### Markdown
-
-Books live in the `_books/` directory. Each book should be a directory that contains a markdown file and a cover (`.png`) image. All three should have the same name:
-
-```
-// paper markdown file
-_papers/
-    the-ancient-art-of-bonsai.md
-
-// paper cover image
-assets/
-  img/
-    papers/
-      the-ancient-art-of-bonsai.png
-```
