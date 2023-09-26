@@ -18,9 +18,10 @@ Gem::Specification.new do |spec|
   spec.metadata["source_code_uri"] = "https://github.com/wikibonsai/jekyll-wikibonsai"
   spec.metadata["changelog_uri"] = "https://github.com/wikibonsai/jekyll-wikibonsai/blob/main/CHANGELOG.md"
 
-  # Specify which files should be added to the gem when it is released.
-  # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
-  spec.files         = Dir["lib/**/*"]
+  spec.metadata["plugin_type"] = "theme"
+  spec.files         = `git ls-files -z`.split("\x0").select do |f| 
+    f.match(%r!^(_layouts|_includes|_sass|_plugins|_data|assets|LICENSE|README|CHANGELOG|_config\.yml)!i)
+  end
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
