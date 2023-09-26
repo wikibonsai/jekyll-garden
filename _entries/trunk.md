@@ -1,6 +1,6 @@
 ---
 id: f19d839450
-title: Trunk
+title: 🪵 Trunk
 desc: ''
 updated: 1695652778000
 created: 1695652778000
