@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require_relative "lib/jekyll-wikibonsai/version"
-
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-wikibonsai"
   spec.version       = '0.0.8'
