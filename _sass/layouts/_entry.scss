@@ -23,7 +23,7 @@
     &--fix-hrz-scroll {
       // fixes horizontal scroll
       // from: https://stackoverflow.com/questions/45280943/horizontal-scroll-breaks-when-using-css-flexbox
-      overflow:hidden;
+      overflow: hidden;
     }
   }
 
@@ -46,6 +46,9 @@
 
   &__body {
     grid-area: body;
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
   }
 
   &__footer {
@@ -89,7 +92,7 @@
         padding-right: $sp-1;
       }
     }
-  } 
+  }
 }
 
 // aside
