@@ -32,7 +32,7 @@
         {% endif %}
         {% assign map_page = site.pages | where: "name", "map.md" %}
         {% if map_page.first %}
-          <a class="btn btn--green drop-3" href="{{ '/map' | relative_url }}" title="Go To Archive">
+          <a class="btn btn--green drop-3" href="{{ '/map' | relative_url }}" title="Go To Tag Map">
             {{ site.data.emoji.bonsai }}
           </a>
         {% endif %}
