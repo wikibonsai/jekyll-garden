@@ -52,8 +52,9 @@
 }
 
 @mixin infobox-container {
+  max-height: 100vh;
   width: 100%;
-  
+
   @include mq(md) {
     max-width: $nav-width-md;
     float: right;
@@ -62,18 +63,20 @@
   @include mq(lg) {
     max-width: $nav-width-md;
     padding: $sp-2;
-    
+
     // from: https://www.bram.us/2020/01/10/smooth-scrolling-sticky-scrollspy-navigation/
     position: sticky;
+    position: -webkit-sticky;
     top: $sp-2;
   }
 
   @include mq(xl) {
     max-width: $nav-width-md * 1.5;
     padding: $sp-2;
-    
+
     // from: https://www.bram.us/2020/01/10/smooth-scrolling-sticky-scrollspy-navigation/
     position: sticky;
+    position: -webkit-sticky;
     top: $sp-2;
 
     margin-right: $nav-width-md * (3/5);

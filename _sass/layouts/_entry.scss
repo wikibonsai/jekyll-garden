@@ -1,5 +1,5 @@
 // entry page styles
-  
+
 .entry {
 
   @include mq(md) {
@@ -8,11 +8,12 @@
   @include mq(lg) {
     display: grid;
     grid-template-areas:
-    "header header header"
-    "title title title"
-    "body body infobox"
-    ". . infobox"
-    "footer footer footer";
+      "header header header"
+      "title title title"
+      "body body infobox"
+      ". . infobox"
+      "footer footer footer";
+    grid-template-columns: 1fr auto;
   }
 
   &__header {
@@ -33,22 +34,14 @@
 
   &__infobox {
     grid-area: infobox;
+
+    @include infobox-container;
     padding: $sp-3;
     margin-bottom: $sp-3;
-
-    @include mq(md) {
-      @include infobox-container;
-    }
-    @include mq(lg) {
-      // grid
-    }
   }
 
   &__body {
     grid-area: body;
-    max-width: 100%;
-    overflow-x: auto;
-    white-space: nowrap;
   }
 
   &__footer {
