@@ -8,7 +8,6 @@ date: '2021-08-04'
 status: "\U0001F38B"
 ---
 
-metaphor::[[bonsai]]
 plugin::[[jekyll-graph]]
 dependency ::
 - [[jekyll-semtree]]

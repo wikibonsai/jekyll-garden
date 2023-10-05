@@ -10,7 +10,6 @@ status: "\U0001F38B"
 
 metaphor::[[foliage]]
 doc-required ::
-- [[id]]
 - [[updated]]
 - [[created]]
 required ::
@@ -18,7 +17,9 @@ required ::
 - [[status]]
 
 
-Like in a dictionary, encylopedia, or wikipedia, entries are one of the central document types to this template (besides [[index-type]]s and [[post-type]]s). They are atomic concepts and ideas. Ideally they are meaningfully [[graph-links|linked]] so as to understand how ideas relate to one another.
+Like in a dictionary, encylopedia, or wikipedia, entries are one of the central document types to this template (besides [[index-type]]s and [[post-type]]s). They are atomic concepts and ideas that are meaningfully [[wikirefs|linked]] so as to understand how those concepts relate to one another.
+
+The breadcrumb [[entry-head]] are formed by the current entry's position in the semantic tree. And [[entry-links]] are built from both its position in the tree as well as the fore and back [[wikirefs]].
 
 ### Navigate
 
@@ -35,7 +36,7 @@ Entries will typically contain frontmatter, wiki attributes, and markdown text r
 frontmatter: attributes
 ---
 
-wiki-attribute::[\[base-concept.related-concept]]
+attrtype::[\[concept]]
 
 Then follows the rest of the text for the document, 
 some of which might contain some more [\[wikirefs]].

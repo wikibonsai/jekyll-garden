@@ -1,6 +1,6 @@
 ---
 id: 4db646ee52
-title: Net Web
+title: Net Web Graph
 desc: ''
 updated: 1637165805189
 created: 1620413066801

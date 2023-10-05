@@ -11,4 +11,4 @@ status: "\U0001F331"
 dependency::[[wikirefs]]
 
 
-Wikilinks may be previewed when hovered over.
+WikiRefs may be previewed when hovered over.

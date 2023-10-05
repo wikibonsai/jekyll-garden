@@ -11,7 +11,7 @@ status: "\U0001F331"
 metaphor::[[bonsai]]
 
 
-This page displays the full [[tree-graph]] generated from the [[index-type]] documents.
+This page displays the full [[semantic-tree]] generated from the [[index-type]] documents. It should be identical in shape to the [[tree-graph]].
 
 ### Navigate
 

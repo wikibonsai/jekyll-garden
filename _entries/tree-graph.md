@@ -1,6 +1,6 @@
 ---
 id: 92a714c807
-title: Tree
+title: Tree Graph
 desc: ''
 updated: 1637165832243
 created: 1620413062589
@@ -8,6 +8,7 @@ date: '2021-08-04'
 status: "\U0001F33F"
 ---
 
+metaphor::[[bonsai]]
 plugin ::
 - [[jekyll-semtree]]
 - [[jekyll-graph]]

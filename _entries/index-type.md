@@ -10,7 +10,6 @@ status: "\U0001F33F"
 
 metaphor::[[trunk]]
 doc-required::
-- [[id]]
 - [[updated]]
 - [[created]]
 required::
@@ -20,45 +19,61 @@ required::
 plugin::[[jekyll-semtree]]
 
 
-Index documents are the primary method of structuring the [[bonsai]] and [[tree-graph]]. They are one of the central document types to this template (besides [[index-type]]s and [[post-type]]s).
+Index documents are the primary method of structuring the [[semantic-tree]] and [[tree-graph]]. They are one of the central document types to this template (besides [[entry-type]]s and [[post-type]]s).
 
 ### Navigate
 
 - Via the [[map-page]].
+- Via [[entry-links]].
 
 ### Markdown
 
-Index files are placed in the `_index/` directory. Each index file should be a markdown outline with \[\[wikirefs]] that point to the [[entry-type]]s that makeup the [[tree-graph]].
+Index files build the [[semantic-tree]], which can be viewed on the [[map-page]] and the [[tree-graph]]. They are placed in the `./_index/` directory and each file should contain a markdown outline with [[wikirefs]] that typically point to [[entry-type]]s (but can point to any [[doctype]]). They may or may not contain yaml [[frontmatter]].
 
-For example (without the backslash escape chars `\`):
+Documents should look like this (minus comments):
+
+(escape chars '\\' added to ensure raw text display)
 
 ```markdown
----
-title: Knowledge Bonsai
----
+// file: i.bonsai.md
 
-- [\[root]]
-  - [\[branch]]
-    - [\[leaf]]
+- [\[bk.how-to-read-a-book]]
+  - [\[read]]
+    - [\[4-levels-of-reading]]
+      - [\[elementary-reading]]
+      - [\[inspectional-reading]]
+      - [\[analytical-reading]]
+      - [\[syntopical-reading]]
 ```
 
-Multiple index files can also be used -- the following should build an identical tree structure:
+The tree may also be broken up into multiple index files:
 
 ```markdown
-// i.bonsai.md
+// file: i.bonsai.md
 
----
-title: Knowledge Bonsai
----
+- [\[bk.how-to-read-a-book]]
+  - [\[i.read]]
+```
 
-- [\[root]]
-  - [\[i.branch]]
+```markdown
+// file: i.read.md
 
-// i.branch.md
----
-title: Knowledge Branch
----
+- [\[4-levels-of-reading]]
+  - [\[elementary-reading]]
+  - [\[inspectional-reading]]
+  - [\[analytical-reading]]
+  - [\[syntopical-reading]]
+```
 
-- [\[leaf]]
+Both of the above examples will generate a tree that looks like this:
 
+```markdown
+i.bonsai
+└── bk.how-to-read-a-book
+    └── i.read
+        └── 4-levels-of-reading
+          ├── elementary-reading
+          ├── inspectional-reading
+          ├── analytical-reading
+          └── syntopical-reading
 ```

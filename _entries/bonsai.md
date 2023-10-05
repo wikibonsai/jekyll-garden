@@ -9,8 +9,8 @@ status: "\U0001F38B"
 ---
 
 literal ::
-- [[jekyll-wikibonsai]]
-- [[graph]]
+- [[semantic-tree]]
+- [[tree-graph]]
 
 
 Bonsai literally means "tray planting". It is the art of recreating a realistic picture of nature in miniaturized form. From the perspective of a site-creator, they are seeding and pruning a `jekyll-wikibonsai` in a small [[graph|tray-like]] space. The finer details are described well by the wikipedia article on bonsai:

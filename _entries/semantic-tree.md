@@ -8,6 +8,7 @@ date: '2021-08-04'
 status: "\U0001F38B"
 ---
 
+metaphor::[[bonsai]]
 builds::
 - [[tree-graph]]
 - [[entry-head]]
@@ -15,7 +16,10 @@ builds::
 plugin::[[jekyll-semtree]]
 
 
-The semantic tree is defined by the documents in the `index` jekyll collection type. Each file may have yaml [[frontmatter]] and should have a markdown outline of [[wikirefs]] pointing to [[entry-type|entries]] (though any collection type is permissible). In entries, the breadcrumb [[entry-head]] and side-bar/footer [[entry-links]] surrounding its content is formed by the current entry's position in the semantic tree. If there are missing levels, they will still be processed by the template. They will simply be marked as a [[missing-node]] in the graph and the [[entry-head]] + [[entry-links]].
+The semantic tree is built with the [[jekyll-semtree]] plugin (see docs for details) and are the building blocks for the [[tree-graph]]. It is defined by the documents in the [[index-type]] markdown files. It forms a conceptual hierarchy with the purpose of orienting one within the concepts of a site.
 
-The tree is built with the [[jekyll-semtree]] plugin (see docs for details) and are the building blocks for the [[tree-graph]].
+In case it needs repeating:
 
+> “It is important to view knowledge as a sort of semantic tree. Make sure you understand the fundamental principles, i.e., the trunk and big branches before you get into the leaves/details or there is nothing for them to hang on to.”
+> 
+> ~ [Elon Musk](https://www.reddit.com/r/IAmA/comments/2rgsan/comment/cnfre0a/?utm_source=share&utm_medium=web2x&context=3)

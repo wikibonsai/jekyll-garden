@@ -11,7 +11,7 @@ status: "\U0001F331"
 metaphor::[[garden-bed]]
 
 
-All [[document]]s may be viewed on this page, sorted by [[document-type]].
+All [[document]]s may be viewed on this page, sorted by [[doctype]].
 
 
 ### Navigate

@@ -7,16 +7,13 @@ title: Jekyll-WikiBonsai
 status: "\U0001F348"
 ---
 
-metaphor::[[bonsai]]
 gimme::[[feedback]]
 
 
 Welcome to Jekyll-WikiBonsai.
 
-This template is about (re)discovering ways of structuring knowledge and navigating the internet.
+It's a [[digital-garden]], whose defining feature are [[wikirefs]] (aka "bidirectional link"). These are links using the \[\[double-square-bracket]] syntax that link to files or pages within a collection of markdown files. They can be used in any and all markdown files across the site, though unique filenames are required.
 
-It's about crafting digital tools that are meant to help us, that wait patiently as we do our human thing. It's about leveraging the things we as people are good at, like visual navigation over walls of menu-text, or speaking in story and metaphor instead of trudging through countless bits of minutae.
+[[wikibonsai]] style gardens in particular add a [[semantic-tree]], which is viewable as a sort of #tag tree called the [[map-page]]. It is built from [[index-type|index files]] whose content defines its structure using markdown lists and \[\[wikirefs]]. The files linked in the semantic tree are primarily [[entry-type|entries]] which act as concept summaries, much like a Wikipedia page. Each entry also displays back references, such as which posts link to those entries.
 
-It's a bonsai. It's a [[digital-garden]]. The features herein are meant to investigate how we might explore the internet differently: By organizing knowledge efficiently and humanizing digital interactions with other people.
-
-It's about cleaning up this mess we've made and to make something beautiful out of it.
+These syntaxes and workflows aim to make large amounts of content more easily navigable without the need for algorithms and opaque search mechanisms (though those are also generally readily accessible).

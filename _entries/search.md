@@ -30,4 +30,4 @@ bonsai:
 
 `enabled`: Toggle search on/off for your site.
 
-`exclude:` You can list the [[document-type]]s you want to exclude from search indexing.
+`exclude:` You can list the [[doctype]]s you want to exclude from search indexing.
