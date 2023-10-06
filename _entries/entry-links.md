@@ -13,4 +13,4 @@ metaphor::[[fork]]
 
 Several sections in the entry display groups of links to other pages depending on how they are connected to the current entry.
 
-The entry's infobox on the right and footers at the bottom of the page provide groups of links to and from the current entry. They correspond to [[graph-links]] in the [[net-web-graph]] or the [[tree-graph]]. Most of these collections of links can be toggled with the 🚏 and 🧺 icons.
+The entry's infobox on the right and footers at the bottom of the page provide groups of links to and from the current entry. They correspond to [[graph-links]] in the [[web-graph]] or the [[tree-graph]]. Most of these collections of links can be toggled with the 🚏 and 🧺 icons.

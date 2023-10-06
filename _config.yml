@@ -180,7 +180,7 @@ graph:
       x_val: 0.9
       strength_y: 0.1
       y_val: 0.9
-  net_web:
+  web:
     # enabled: true
     # exclude:
     #   links: true
@@ -229,7 +229,7 @@ bonsai:
   nav:
     type: "graph"  # may be 'visited' (steps) or 'graph' (bonsai)
     graph:
-      type: "tree" # may be 'tree' or 'net-web'
+      type: "tree" # may be 'tree' or 'web'
     search: 
       enabled: true
       exclude: []

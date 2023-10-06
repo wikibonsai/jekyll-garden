@@ -16,7 +16,7 @@ Some navigational and display preferences are saved in the visitors' browser to 
   - ✨ [[star-theme]]
 - Toggle [[graph]] type:
   - 🌳 [[tree-graph]]
-  - 🕸 [[net-web-graph]]
+  - 🕸 [[web-graph]]
 - Hide/Show [[entry-type]]-local navigation:
   - 🛤 [[entry-head]]
   - 🚏 / 🧺 [[entry-links]]

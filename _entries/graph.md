@@ -25,7 +25,7 @@ On a node...
   - You'll be taken to it's corresponding entry page.
 - ...hover:
   - Its title will display as a tooltip
-  - Net-web `neighbors` or tree `lineage` will highlight.
+  - Web `neighbors` or tree `lineage` will highlight.
 
 On a link...
 - ...hover: 
@@ -38,7 +38,7 @@ On a link...
 bonsai:
   nav:
     graph:
-      type: "tree" # may be 'tree' or 'net-web'
+      type: "tree" # may be 'tree' or 'web'
 ```
 
 `nav.graph.type`: Allows you to set the default [[graph-type]] to be displayed.

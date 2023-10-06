@@ -11,4 +11,4 @@ status: "\U0001F331"
 literal::[[entry-links]]
 
 
-The fork in the path is where visitors may decide where to go next: To either drill down deeper through the [[tree-graph]]'s children or hop around the [[net-web-graph]].
+The fork in the path is where visitors may decide where to go next: To either drill down deeper through the [[tree-graph]]'s children or hop around the [[web-graph]].

@@ -8,4 +8,4 @@ date: '2021-08-04'
 status: "\U0001F33F"
 ---
 
-Links in the graph connect [[graph-nodes]]. [[tree-graph]] links are built from [[semantic-tree]] and [[net-web-graph]] links are built from [[wikirefs]].
+Links in the graph connect [[graph-nodes]]. [[tree-graph]] links are built from [[semantic-tree]] and [[web-graph]] links are built from [[wikirefs]].

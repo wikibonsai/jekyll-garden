@@ -17,7 +17,7 @@ bonsai:
   nav:
     type: "graph"  # may be 'visited' (steps) or 'graph' (bonsai)
     graph:
-      type: "tree" # may be 'tree' or 'net-web'
+      type: "tree" # may be 'tree' or 'web'
     search:
       enabled: true
       exclude:

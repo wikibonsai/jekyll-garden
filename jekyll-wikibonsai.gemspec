@@ -41,7 +41,7 @@ Gem::Specification.new do |spec|
   # wikibonsai
   spec.add_dependency "jekyll-semtree", "~> 0.0.3"
   spec.add_dependency "jekyll-wikirefs", "~> 0.0.14"
-  spec.add_dependency "jekyll-graph", "~> 0.0.10"
+  spec.add_dependency "jekyll-graph", "~> 0.0.11"
   # don't crash
   spec.add_dependency "webrick", "~> 1.7"
 

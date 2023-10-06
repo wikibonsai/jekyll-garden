@@ -9,7 +9,7 @@ status: "\U0001F38B"
 ---
 
 builds::
-- [[net-web-graph]]
+- [[web-graph]]
 - [[entry-links]]
 plugin::[[jekyll-wikirefs]]
 
@@ -24,7 +24,7 @@ _WikiLinks_ are traditional bidirectional links using the square bracket syntax 
 
 _WikiEmbeds_ embed the content of the linked file into the current one in-place. Markdown files may be embedded as well as images, audio, or video files.
 
-All wikirefs are highlighted in a different color than external web links and may be [[hover-preview|previewed on hover]]. They are also the building blocks for the [[net-web-graph]].
+All wikirefs are highlighted in a different color than external web links and may be [[hover-preview|previewed on hover]]. They are also the building blocks for the [[web-graph]].
 
 
 [^names]: "wikiref" actually goes by many names: "[wikilink](https://en.wikipedia.org/wiki/Help:Link)", "[bidirectional link](https://maggieappleton.com/bidirectionals)", "[wikitext linking](https://tiddlywiki.com/#Linking%20in%20WikiText)","backlink", "[internal link](https://help.obsidian.md/How+to/Internal+link)", "humble double bracket internal link", to name only a few...

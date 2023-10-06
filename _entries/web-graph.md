@@ -13,4 +13,4 @@ plugin ::
 - [[jekyll-wikirefs]]
 
 
-🕸 The net-web graph is built from the [[wikirefs]].
+🕸 The web graph is built from the [[wikirefs]].

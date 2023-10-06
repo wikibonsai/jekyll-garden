@@ -73,7 +73,7 @@ status: 🎋
           - [[visited-status]]
         - [[graph-toggle]]
         - [[graph-type]]
-          - [[net-web-graph]]
+          - [[web-graph]]
           - [[tree-graph]]
       - [[search]]
       - [[visited-nav]]

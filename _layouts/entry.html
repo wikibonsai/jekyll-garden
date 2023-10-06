@@ -68,7 +68,7 @@ layout: base
       </div>
       <div class="infobox__link-nav">
         <nav id="attr-box-link-nav" class="link-map">
-          <span class="link-map__type" title="Attribute Entries">{% include img/bullet-net-web.svg %}</span>
+          <span class="link-map__type" title="Attribute Entries">{% include img/bullet-web.svg %}</span>
           {% if page.attributes.size == 0 %}
             <p class="text--small text--center">No attribute entries.</p>
           {% else %}
@@ -140,7 +140,7 @@ layout: base
         </div>
         <div class="link-box__partition">
           <span class="link-box__type" title="Attributed and Backlink Entries">
-            {% include img/bullet-net-web.svg %}
+            {% include img/bullet-web.svg %}
           </span>
           {% assign entry_attrd = page.attributed | doc_type: "entries" %}
           {% assign entry_blinks = page.backlinks | doc_type: "entries" %}

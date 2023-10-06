@@ -25,13 +25,13 @@ export default class GraphNav extends JekyllGraph {
   }
 
   // draw
-  
+
   draw() {
     // redraw new chart
     if (this.graphTypeCheckBox.checked) {
       this.drawTree();
     } else {
-      this.drawNetWeb();
+      this.drawWeb();
     }
   }
 
@@ -41,11 +41,11 @@ export default class GraphNav extends JekyllGraph {
   }
 
   // type
-  
+
   initGraphType() {
     this.graphType = localStorage.getItem('graph-type');
-    if (this.graphType !== "tree" && this.graphType !== "net-web") {
-      this.graphType = '{{ site.bonsai.nav.graph.type }}';	
+    if (this.graphType !== "tree" && this.graphType !== "web") {
+      this.graphType = '{{ site.bonsai.nav.graph.type }}';
     }
     this.graphTypeCheckBox.checked = (this.graphType === "tree");
     this.updateGraphType();
@@ -53,12 +53,12 @@ export default class GraphNav extends JekyllGraph {
 
   updateGraphType() {
     if (this.graphTypeCheckBox.checked) {
-      this.graphTypeEmojiSpan.innerText = "{{ site.data.emoji.net-web }}";
+      this.graphTypeEmojiSpan.innerText = "{{ site.data.emoji.web }}";
       this.graphType = "tree";
     } else {
       this.graphTypeEmojiSpan.innerText = "{{ site.data.emoji.tree }}";
-      this.graphType = "net-web";
+      this.graphType = "web";
     }
     localStorage.setItem('graph-type', this.graphType);
-  } 
+  }
 }

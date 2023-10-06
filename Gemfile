@@ -24,7 +24,7 @@ group :jekyll_plugins do
   gem "jekyll-id", "~> 0.0.2"
   gem "jekyll-semtree", "~> 0.0.3"
   gem "jekyll-wikirefs", "~> 0.0.14"
-  gem "jekyll-graph", "~> 0.0.10"
+  gem "jekyll-graph", "~> 0.0.11"
 end
 
 gem "webrick", "~> 1.7"
