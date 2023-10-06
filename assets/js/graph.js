@@ -6,20 +6,20 @@ export default class GraphNav extends JekyllGraph {
 
   constructor() {
     super(); // 'this.graph' + 'this.graphDiv' set in JekyllGraph
-    this.graphTypeCheckBox = document.getElementById('graph-type-checkbox');
-    this.graphTypeEmojiSpan = document.getElementById('graph-type-emoji-span');
-    this.init(); // this.graphType set in initGraphType();
+    this.graphKindCheckBox = document.getElementById('graph-kind-checkbox');
+    this.graphKindEmojiSpan = document.getElementById('graph-kind-emoji-span');
+    this.init(); // this.graphKind set in initgraphKind();
   }
 
   init() {
-    this.initGraphType();
+    this.initGraphKind();
     this.bindEvents();
     this.draw();
   }
   
   bindEvents() {
-    this.graphTypeCheckBox.addEventListener('click', () => {
-      this.updateGraphType();
+    this.graphKindCheckBox.addEventListener('click', () => {
+      this.updateGraphkind();
       this.draw();
     });
   }
@@ -28,7 +28,7 @@ export default class GraphNav extends JekyllGraph {
 
   draw() {
     // redraw new chart
-    if (this.graphTypeCheckBox.checked) {
+    if (this.graphKindCheckBox.checked) {
       this.drawTree();
     } else {
       this.drawWeb();
@@ -36,29 +36,29 @@ export default class GraphNav extends JekyllGraph {
   }
 
   redraw() {
-    this.updateGraphType();
+    this.updateGraphkind();
     this.draw();
   }
 
   // type
 
-  initGraphType() {
-    this.graphType = localStorage.getItem('graph-type');
-    if (this.graphType !== "tree" && this.graphType !== "web") {
-      this.graphType = '{{ site.bonsai.nav.graph.type }}';
+  initGraphKind() {
+    this.graphKind = localStorage.getItem('graph-kind');
+    if (this.graphKind !== "tree" && this.graphKind !== "web") {
+      this.graphKind = '{{ site.bonsai.nav.graph.kind }}';
     }
-    this.graphTypeCheckBox.checked = (this.graphType === "tree");
-    this.updateGraphType();
+    this.graphKindCheckBox.checked = (this.graphKind === "tree");
+    this.updateGraphkind();
   }
 
-  updateGraphType() {
-    if (this.graphTypeCheckBox.checked) {
-      this.graphTypeEmojiSpan.innerText = "{{ site.data.emoji.web }}";
-      this.graphType = "tree";
+  updateGraphkind() {
+    if (this.graphKindCheckBox.checked) {
+      this.graphKindEmojiSpan.innerText = "{{ site.data.emoji.web }}";
+      this.graphKind = "tree";
     } else {
-      this.graphTypeEmojiSpan.innerText = "{{ site.data.emoji.tree }}";
-      this.graphType = "web";
+      this.graphKindEmojiSpan.innerText = "{{ site.data.emoji.tree }}";
+      this.graphKind = "web";
     }
-    localStorage.setItem('graph-type', this.graphType);
+    localStorage.setItem('graph-kind', this.graphKind);
   }
 }
