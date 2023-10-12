@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-wikibonsai"
-  spec.version       = "0.0.10"
+  spec.version       = "0.0.11"
   spec.authors       = ["manunamz"]
   spec.email         = ["manunamz@pm.me"]
 
