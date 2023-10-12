@@ -22,7 +22,7 @@ _WikiAttrs_ are formalized attributes of a file. They include a descriptive attr
 
 _WikiLinks_ are traditional bidirectional links using the square bracket syntax and may appear anywhere in a file. There are :typed::\[\[wikilinks]] and regular untyped \[\[wikilinks]]. They are highlighted in a different color than external web links and may be [[hover-preview|previewed on hover]].
 
-_WikiEmbeds_ embed the content of the linked file into the current one in-place. Markdown files may be embedded as well as images, audio, or video files.
+_WikiEmbeds_ embed the content of the linked file into the current one in-place. Markdown files may be embedded as well as images, audio, or video files. WikiEmbeds look like \!\[\[this]].
 
 All wikirefs are highlighted in a different color than external web links and may be [[hover-preview|previewed on hover]]. They are also the building blocks for the [[web-graph]].
 
