@@ -5,6 +5,8 @@
 
 <img src="https://github.com/wikibonsai/jekyll-wikibonsai/blob/main/assets/img/bonsai-light.svg" width="300" height="300"/>
 
+You can see the live demo [here](https://jekyll-wikibonsai.netlify.app/).
+
 💐 Display your [🎋 WikiBonsai](https://github.com/wikibonsai/wikibonsai) digital garden for others.
 
 - Does not currently support CAML primitives (just wikiattrs).
