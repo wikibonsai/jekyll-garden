@@ -1,45 +1,48 @@
-# Jekyll-WikiBonsai
+# Jekyll-Garden
 
 [![A WikiBonsai Project](https://img.shields.io/badge/%F0%9F%8E%8B-A%20WikiBonsai%20Project-brightgreen)](https://github.com/wikibonsai/wikibonsai)
-[![Ruby Gem](https://img.shields.io/gem/v/jekyll-wikibonsai)](https://rubygems.org/gems/jekyll-wikibonsai)
+[![Ruby Gem](https://img.shields.io/gem/v/jekyll-garden)](https://rubygems.org/gems/jekyll-garden)
 
-<img src="https://github.com/wikibonsai/jekyll-wikibonsai/blob/main/assets/img/bonsai-light.svg" width="300" height="300"/>
+<p align="center">
+  <img src="./assets/img/jekyll.png" width="150" height="150"/>
+  <img src="./assets/img/garden.svg" width="150" height="150"/>
+</p>
 
-You can see the live demo [here](https://jekyll-wikibonsai.netlify.app/).
+A [Jekyll](https://jekyllrb.com/) template with [WikiBonsai](https://github.com/wikibonsai/wikibonsai) support.
 
-💐 Display your [🎋 WikiBonsai](https://github.com/wikibonsai/wikibonsai) digital garden for others.
+You can see the live demo [here](https://jekyll-garden.netlify.app/).
 
-- Does not currently support CAML primitives (just wikiattrs).
+🌸 Share bloomz from your [🎋 WikiBonsai](https://github.com/wikibonsai/wikibonsai) digital garden.
 
 ## Features
 
-- [[[Wikirefs]]](https://jekyll-wikibonsai.netlify.app/entry/d1634ef36a/) support.
-- [A semantic tree](https://jekyll-wikibonsai.netlify.app/entry/fa6aa0c597/) support.
-- [Graphs](https://jekyll-wikibonsai.netlify.app/entry/5f44796eaf/)
+- [[[Wikirefs]]](https://jekyll-garden.netlify.app/entry/d1634ef36a/) support.
+- [A semantic tree](https://jekyll-garden.netlify.app/entry/fa6aa0c597/) support.
+- [Graphs](https://jekyll-garden.netlify.app/entry/5f44796eaf/)
 
 ## Setup
 
 There are multiple ways to utilize this template...
 
-[⚙️ Setup](https://jekyll-wikibonsai.netlify.app/post/0b9db15818/)
+[⚙️ Setup](https://jekyll-garden.netlify.app/post/0b9db15818/)
 
 ### Use
 
 For those interested in getting straight to writing:
 
-[📝 Write](https://jekyll-wikibonsai.netlify.app/post/827a3e6d12/)
+[📝 Write](https://jekyll-garden.netlify.app/post/827a3e6d12/)
 
 ### Template
 
 For those that want to write and tinker with the template itself:
 
-[🔍 Tinker](https://jekyll-wikibonsai.netlify.app/post/e7e22a4da8/)
+[🔍 Tinker](https://jekyll-garden.netlify.app/post/e7e22a4da8/)
 
 ### Code
 
 For those that just want to know how the template works and want to borrow ideas for their own:
 
-[🛠 Code](https://jekyll-wikibonsai.netlify.app/post/2902cedfa6/)
+[🛠 Code](https://jekyll-garden.netlify.app/post/2902cedfa6/)
 
 ## Plugins
 

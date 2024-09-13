@@ -11,4 +11,4 @@ status: "\U0001F33F"
 metaphor::[[place]]
 
 
-Jekyll-WikiBonsai has some special [jekyll pages](https://jekyllrb.com/docs/pages/), which may be removed or added simply by removing or adding the corresponding markdown file in the `_pages/` directory. Some pages also have their own [[config]]s.
+Jekyll-Garden has some special [jekyll pages](https://jekyllrb.com/docs/pages/), which may be removed or added simply by removing or adding the corresponding markdown file in the `_pages/` directory. Some pages also have their own [[config]]s.

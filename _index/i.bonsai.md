@@ -7,7 +7,7 @@ date: '2023-09-21'
 status: 🎋
 ---
 
-- [[jekyll-wikibonsai]]
+- [[jekyll-garden]]
   - [[wikibonsai]]
     - [[semantic-tree]]
   - [[feedback]]

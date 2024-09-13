@@ -17,7 +17,7 @@ First, you'll want to [setup a GitHub account](https://github.com/signup)
 
 ### 1 "Use This Template"
 
-Go to the [`jekyll-wikibonsai-templ`](https://github.com/wikibonsai/jekyll-wikibonsai-templ) starter project and hit the big green "Use this template" button.
+Go to the [`jekyll-garden-template`](https://github.com/wikibonsai/jekyll-garden-template) starter project and hit the big green "Use this template" button.
 
 This will take you to a **"Create a new repository"** screen. Fill out given prompts -- "Repository name", "Description", etc. and then click the big green **"Create repository from template"** button.
 

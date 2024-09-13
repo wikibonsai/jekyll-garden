@@ -11,7 +11,7 @@ status: "\U0001F331"
 metaphor::[[basecamp]]
 
 
-The home page is the page that will load at the root of a `jekyll-wikibonsai` site.
+The home page is the page that will load at the root of a `jekyll-garden` site.
 
 ### Navigate
 

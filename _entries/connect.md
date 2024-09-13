@@ -22,7 +22,7 @@ social:
     enabled: true
     url:
       # facebook:
-      github: https://github.com/wikibonsai/jekyll-wikibonsai/
+      github: https://github.com/wikibonsai/jekyll-garden/
       # linkedin:
       # pinterest:
       # rss:

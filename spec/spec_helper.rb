@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require "jekyll"
-require "jekyll-wikibonsai"
+require "jekyll-garden"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

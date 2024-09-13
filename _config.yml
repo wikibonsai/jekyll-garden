@@ -1,8 +1,8 @@
-title: jekyll-wikibonsai
+title: jekyll-garden
 description: A jekyll theme for semantically inclined digital gardeners.
 author: manunamz
 baseurl: ''
-# url: 'https://jekyll-wikibonsai.netlify.app'
+# url: 'https://jekyll-garden.netlify.app'
 
 include:
   - "_pages"
@@ -200,7 +200,7 @@ social:
     enabled: true
     url:
       # facebook:
-      github: https://github.com/wikibonsai/jekyll-wikibonsai/
+      github: https://github.com/wikibonsai/jekyll-garden/
       # linkedin:
       # pinterest:
       # rss:
@@ -260,7 +260,7 @@ bonsai:
   states:
     root_path: "_states/tags.md"
   entries:
-    root_path: "_entries/jekyll-wikibonsai.md"
+    root_path: "_entries/jekyll-garden.md"
     toggles:  # may be 'open' or 'closed'
       breadcrumb: "open"
       attr_box: "open"

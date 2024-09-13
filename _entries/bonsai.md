@@ -13,7 +13,7 @@ literal ::
 - [[tree-graph]]
 
 
-Bonsai literally means "tray planting". It is the art of recreating a realistic picture of nature in miniaturized form. From the perspective of a site-creator, they are seeding and pruning a `jekyll-wikibonsai` in a small [[graph|tray-like]] space. The finer details are described well by the wikipedia article on bonsai:
+Bonsai literally means "tray planting". It is the art of recreating a realistic picture of nature in miniaturized form. From the perspective of a site-creator, they are seeding and pruning a `jekyll-garden` in a small [[graph|tray-like]] space. The finer details are described well by the wikipedia article on bonsai:
 
 > Purposes of bonsai are primarily contemplation for the viewer, and the pleasant exercise of effort and ingenuity for the grower. By contrast with other plant cultivation practices, bonsai is not intended for production of food or for medicine. Instead, bonsai practice focuses on long-term cultivation and shaping of one or more small trees growing in a [[graph|container]]."
 >

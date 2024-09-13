@@ -11,7 +11,7 @@ gem "rake", "~> 13.0"
 gem "rspec", "~> 3.0"
 gem "rubocop", "~> 1.7"
 
-# note: keep in-sync with with jekyll-wikibonsai.gemspec
+# note: keep in-sync with with jekyll-garden.gemspec
 gem "jekyll", "~> 4.2.0"
 group :jekyll_plugins do
   # official

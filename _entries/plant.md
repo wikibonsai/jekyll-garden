@@ -11,4 +11,4 @@ status: "\U0001F33F"
 literal::[[state-type]]
 
 
-The necessity of every garden. There are a variety of plant types in a jekyll-wikibonsai.
+The necessity of every garden. There are a variety of plant types in a jekyll-garden.

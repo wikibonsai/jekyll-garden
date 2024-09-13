@@ -8,4 +8,4 @@ date: 2021-08-04
 status: 🌸
 ---
 
-Let me know if you found a [🐛 bug](https://github.com/wikibonsai/jekyll-wikibonsai/issues/) or want to see something new [🌺 grow](https://github.com/wikibonsai/jekyll-wikibonsai/discussions/).
+Let me know if you found a [🐛 bug](https://github.com/wikibonsai/jekyll-garden/issues/) or want to see something new [🌺 grow](https://github.com/wikibonsai/jekyll-garden/discussions/).

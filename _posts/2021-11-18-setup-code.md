@@ -13,16 +13,16 @@ If you're here, I presume you have already setup `git`, `jekyll`, `ruby`, and th
 
 ### 0 Gem or Fork?
 
-There are a couple of ways you can use the `jekyll-wikibonsai` template:
+There are a couple of ways you can use the `jekyll-garden` template:
 
 | Way | Why? |
 | --- | ---- |
-| 💎 Import the [[2021-11-18-setup-code#B. Gem|gem]]. | This is ideal if you simply want to play around with [[config]], [[data]], and selectively [override](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) anything you want to change. If you use the gem, installing and updating `jekyll-wikibonsai` template's new features or bug fixes  is as easy as changing [[gem|one line]] in your project. |
+| 💎 Import the [[2021-11-18-setup-code#B. Gem|gem]]. | This is ideal if you simply want to play around with [[config]], [[data]], and selectively [override](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) anything you want to change. If you use the gem, installing and updating `jekyll-garden` template's new features or bug fixes  is as easy as changing [[gem|one line]] in your project. |
 | 🍴 [[2021-11-18-setup-code#A. Fork|Fork]] the template project. | This exposes you directly to the code (namely the styles and layouts), which allows you to tinker with the html, css, javascript, or even [ruby](https://jekyllrb.com/docs/plugins/installation/) directly. This is useful if you want to customize the template heavily and don't mind missing out on bug fixes or feature updates. |
 
 ### A. Fork
 
-Head to the [`jekyll-wikibonsai`](https://github.com/wikibonsai/jekyll-wikibonsai/) repo and fork the project by clicking the **"Fork"** button in the upper-right.
+Head to the [`jekyll-garden`](https://github.com/wikibonsai/jekyll-garden/) repo and fork the project by clicking the **"Fork"** button in the upper-right.
 
 Then head back to the [[2021-11-18-setup#Clone|clone instructions]]...
 
@@ -44,16 +44,16 @@ Add [`webrick`](https://github.com/jekyll/jekyll/issues/8523) to your `Gemfile`:
 gem "webrick"
 ```
 
-Next, add `jekyll-wikibonsai`:
+Next, add `jekyll-garden`:
 
 ```ruby
-gem "jekyll-wikibonsai"
+gem "jekyll-garden"
 ```
 
 Set the theme in `_config.yml`:
 
 ```yaml
-theme: jekyll-wikibonsai
+theme: jekyll-garden
 ```
 
 #### B3 Add Necessary Files

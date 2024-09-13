@@ -1,22 +1,22 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-wikibonsai"
-  spec.version       = "0.0.11"
+  spec.name          = "jekyll-garden"
+  spec.version       = "0.0.12"
   spec.authors       = ["manunamz"]
   spec.email         = ["manunamz@pm.me"]
 
   spec.summary       = "A jekyll theme for semantically inclined digital gardeners."
   # spec.description   = "TODO: Write a longer description or delete this line."
-  spec.homepage      = "https://github.com/wikibonsai/jekyll-wikibonsai"
+  spec.homepage      = "https://github.com/wikibonsai/jekyll-garden"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
   spec.licenses      = ["MIT"]
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/wikibonsai/jekyll-wikibonsai"
-  spec.metadata["changelog_uri"] = "https://github.com/wikibonsai/jekyll-wikibonsai/blob/main/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = "https://github.com/wikibonsai/jekyll-garden"
+  spec.metadata["changelog_uri"] = "https://github.com/wikibonsai/jekyll-garden/blob/main/CHANGELOG.md"
 
   spec.metadata["plugin_type"] = "theme"
   spec.files         = `git ls-files -z`.split("\x0").select do |f| 

@@ -13,7 +13,9 @@ gimme::[[feedback]]
 
 ![[wikibonsai-way.png]][^twt]
 
-![[jekyll-wikibonsai]]
+Jekyll-Garden is a [WikiBonsai](https://github.com/wikibonsai/wikibonsai) project.
+
+![[jekyll-garden]]
 
 
 [^twt]: [explain](https://twitter.com/wibomd/status/1703930973371412699)

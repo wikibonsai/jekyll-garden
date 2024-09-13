@@ -23,7 +23,7 @@
       wiki:
         underline: "#ede5dd"
         valid: "#009c7b"
-        invalid: "#959396" 
+        invalid: "#959396"
   svg:
     pencil:
       default: "#5c5962"
